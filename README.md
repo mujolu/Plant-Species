@@ -67,7 +67,20 @@ Step  5: Under the Hood results
 
 
 
-Dataset:
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Dataset:
 
 
 <img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/1e16908f-d282-4125-8b98-1483a95a5c15" />
@@ -75,8 +88,19 @@ Dataset:
 
 
 
+##
+## Google drive model link: https://drive.google.com/drive/folders/1IOXeNrjahQuxWS1qqtd17Pt9Twy0sAsr?usp=sharing
 
-Google drive model link: https://drive.google.com/drive/folders/1IOXeNrjahQuxWS1qqtd17Pt9Twy0sAsr?usp=sharing
+# Reflection Question
+
+1. Some really achieved 100% accuracy and some were not able to fully recognize the plant especially on the angles that are most not common.
+2. Hottentot. Usually, this plant look like braided hairs, there were so many stems. I come across this image where it was classified as the same plant but there were only two stems in total. The model misclassified it to the strings of heart and only the exact plant name has the lowest confidence score.
+3. Changing the epochs, batch size, and learning rate affected how well the model learned from the plant images. Using 40 epochs gave the model enough time to understand patterns without overtraining, while a batch size of 16 balanced training speed and accuracy by processing a moderate number of images at a time. A learning rate of 0.001 allowed the model to learn steadily without making large errors. Together, these settings helped produce stable training and improved the model’s accuracy in recognizing different plant species.
+4. Challenges I encounter were, having trouble were to get this massive load of images and when training the model, you have to finish the sesion of training and testing in it or it will restart the next time you come visit the site.
+5. Changes will be how I will put all possible angles, colors and volume of the dataset itself, so when training the model, it will achieve high accuracy score and low confusion matrix.
+
+
+# Documentation link: https://drive.google.com/drive/folders/1QWGmzQlNPCVfViDJbrpyfHsNvAmRIrwR?usp=sharing
 
 
 
